@@ -1,0 +1,16 @@
+Consigna 1: 
+
+*   nodemon server -p 3000 -m cluster
+    nodemon server -p 3000 -m fork 
+    nodemon server -p 3000
+
+*   forever start -w server.js -p 3000 -m cluster
+    forever list
+    ps | grep node
+
+*   pm2 start server.js --name="serverFork" --watch -- 8080
+    pm2 start server.js --name="server-cluster" --watch -i max -- 8081
+    pm2 list
+    ps | grep node
+
+*

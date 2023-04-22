@@ -1,0 +1,17 @@
+<div class="container col-4 p-3 bg-secondary bg-gradient bg-opacity-25 rounded d-flex flex-column justify-content-center align-items-center">
+    <h2>Sign up</h2>
+    <form action="/auth/register" method="POST" class="col-12">
+        <div class="mb-3">
+            <p class="fw-bold fst-italic">email</p>
+            <input type="email" class="form-control" name="username" id="username" aria-describedby="username">
+        </div>
+        <div class="mb-3">
+            <p class="fw-bold fst-italic">password</p>
+            <input type="password" class="form-control" name="password" id="password" aria-describedby="password">
+        </div>
+        <div class="col-12 d-flex justify-content-between">
+            <button class="btn btn-success">Submit</button>
+            <a href='/auth/login' class="btn btn-primary">Sign in</a>
+        </div>
+    </form>
+</div>  
