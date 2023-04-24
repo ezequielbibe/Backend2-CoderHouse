@@ -1,0 +1,8 @@
+{{>welcome}}
+<div class="container text-center"><h2>Your cart</h2></div>
+{{>table}}
+<div class="container">
+    <button class="btn btn-danger" onclick="handleDeleteCart('{{user._id}}')">Delete all products</button>
+    <button class="btn btn-success" onclick="handleBuyCart()">Buy</button>
+</div>
+<script src="../../../main.js"></script>
