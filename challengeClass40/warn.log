@@ -1,0 +1,95 @@
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /account, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: daoCart.clearCart is not a function"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: daoCart.clearCart is not a function"}
+{"level":"error","message":"error: clearCart is not defined"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: clearCart is not defined"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: removeProductCart is not defined"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/sdsadasd, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
+{"level":"warn","message":"Invalid route: /api/cart/64335615e5f7df036b5928d3/123123213, Method: GET"}
