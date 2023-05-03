@@ -1,0 +1,32 @@
+<div class="container bg-light">
+    <h2 class="text-danger fw-bold">List Products</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Code</th>
+                <th scope="col">Description</th>
+                <th scope="col">Photo</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            {{#each products}}
+                <tr>
+                    <th scope="row"></th>
+                    <td>{{prodName}}</td>
+                    <td>${{price}}</td>
+                    <td>{{stock}}</td>
+                    <td>{{code}}</td>
+                    <td>{{description}}</td>
+                    <td><img style="width: 50px; height: 50px" src={{photo}}></img></td>
+                    {{#if ../list}}<td><button class="btn btn-success" onclick="handleAddCartProduct('{{_id}}')">+</button></td>{{/if}}
+                    {{#if ../cart}}<td><button class="btn btn-danger" onclick="handleDeleteCartProduct('{{../user._id}}','{{_id}}',)">-</button></td>{{/if}}
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
