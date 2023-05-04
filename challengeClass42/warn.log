@@ -130,3 +130,11 @@
 {"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
 {"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}

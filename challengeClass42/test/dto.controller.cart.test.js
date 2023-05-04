@@ -1,7 +1,8 @@
 import { expect } from 'chai'
-import { clearProducts, createProduct, deleteProductById, getAllProducts, getProductById, updateProduct } from '../dto/productsControllers.js'
+import { addProductCartById, clearAllCarts, clearCart, createCart, getCartById, getProductsCartById } from '../dto/cartControllers.js'
 
-const product = {
+const prod = {
+    _id: '2',
     timeStamp: '3/4/2023, 15:00:35',
     prodName: 'Samsung Galaxy A53',
     description: 'Cellphone samsung',
@@ -10,101 +11,98 @@ const product = {
     photo: 'https://tienda.movistar.com.ar/media/catalog/product/cache/1d01ed3f1ecf95fcf479279f9ae509ad/s/5/s53-negro-dorso.png',
     stock: 2,
 }
+const newCart = { 
+    id: '1', 
+    timeStamp: '4/5/2023', 
+    products: [prod]
+}
 
-describe('DTO products controller', () => {
+describe('DTO carts controller', () => {
 
-    describe('createProduct', () => {
+    describe('createCart', () => {
         beforeEach(() => {
-            clearProducts()
+            clearAllCarts()
         })
 
-        it('Should create product and return product with id', async () => {
-            const request = await createProduct(product)
-            const request2 = await getProductById(request._id)
-
+        it('Should create and return an new cart with id', async () => {
+            const request = await createCart(newCart)
 
             expect(request).to.be.an('object')
-            expect(request2).to.be.eq(request)
-            expect(request).to.have.any.keys('_id')            
+            expect(request).to.have.any.keys('_id', 'timeStamp','products')
         })
     })
 
-    describe('getProductByID', () => {
-        beforeEach(() => {
-            clearProducts()
+    describe('getCartsById', () => {
+        beforeEach(()=> {
+            clearAllCarts()
         })
 
-        it('Should return one object if you search a product by id', async () => {
-            const newProduct = await createProduct(product)
-            const request = await getProductById(newProduct._id)
+        it('Should return an one cart with id ', async () => {
+            const data = await createCart(newCart)
+            const request = await getCartById(data.id)
 
-            expect(request._id).to.be.eq(newProduct._id)
             expect(request).to.be.an('object')
-            expect(request).to.have.any.keys('_id', 'timeStamp', 'description', 'code', 'price', 'photo', 'stock')
+            expect(request).to.be.eq(data)
         })
 
-        it('Should return undefined if no encuentra un producto con esa id', async () => {
-            const request = await getProductById('1')
+        it('Should return undefined if not have cart or not have cart id', async () => {
+            const request = await getCartById('2')
+            const request2 = await getCartById()
 
             expect(request).to.be.eq(undefined)
-        })
-
-        it('Should return if no tienes un id', async () => {
-            const request = await getProductById()
-
-            expect(request).to.be.eq(undefined)
+            expect(request2).to.be.eq(undefined)
         })
     })
 
-    describe('getAllProducts', () => {
-        beforeEach(() => {
-            clearProducts()
+    describe('getProductsCartById', () => {
+        beforeEach(()=> {
+            clearAllCarts()
         })
 
-        it('Should return an array of products', async () => {
-            await createProduct(product)
-            await createProduct(product)
-            const request = await getAllProducts()
+        it('Should return an array of objects', async () => {
+            await createCart(newCart)
+            const request = await getProductsCartById(newCart.id)
+            
+            expect(request).to.be.an('array')
+            expect(request.length).to.be.eq(1)
+            expect(request[0]).to.have.any.keys('_id', 'timeStamp', 'prodName', 'description', 'code', 'price', 'photo', 'stock')
+        })
+
+        it('Should return undefined if not have id or id is not correct', async () => {
+            const request = await getProductsCartById()
+            const request2 = await getProductsCartById('2')
+
+            expect(request).to.be.eq(undefined)
+            expect(request2).to.be.eq(undefined)
+        })
+    })
+
+    describe('addProductCartById', () => {
+
+        beforeEach(() => {
+            clearAllCarts()
+        })
+
+        it('Should add product in cart by id', async () => {
+            await createCart(newCart)
+            const newProd = {...prod, prodName: 'Samsung Galaxy Note', price: 123}
+            await addProductCartById(newCart.id, newProd)
+            const request = await getProductsCartById(newCart.id)
 
             expect(request).to.be.an('array')
             expect(request.length).to.be.eq(2)
-        })
-
-        it('Should return empty array if not have products', async () => {
-            const request = await getAllProducts()
-
-            expect(request).to.be.an('array')
-            expect(request.length).to.be.eq(0)
+            expect(request[1]).to.be.an('object')
+            expect(request[1]).to.be.eq(newProd)
         })
     })
 
-    describe('updateProduct', () => {
-        beforeEach(() => {
-            clearProducts()
+    describe('clearCart', () => {
+        beforeEach(()=>{
+            clearAllCarts()
         })
 
-        it('Should return modifiqued product', async () => {
-            const data = await createProduct(product)
-            const request = await updateProduct(data._id, {...data, price: 54321})
-
-            expect(request).to.be.an('object')
-            expect(request.price).to.be.eq(54321)
+        it('Should empty cart by id', () => {
+            
         })
-    })
-
-    describe('deleteProductById', () => {
-        beforeEach(() => {
-            clearProducts()
-        })
-
-        it('Should delete product by id', async () => {
-            const newProduct = await createProduct(product)
-            const search = await getProductById(newProduct._id)
-            await deleteProductById(newProduct._id)
-            const secondSearch = await getProductById(newProduct._id)
-
-            expect(search).to.not.be.eq(undefined)
-            expect(secondSearch).to.be.eq(undefined)
-        }) 
     })
 })

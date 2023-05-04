@@ -58,3 +58,7 @@ export const removeProductCart = async (id, _id) => {
     const req = await daoCart.updateData('id', id, cart)
     return req
 }
+
+export const clearAllCarts = async () => {
+    await daoCart.clearData()
+}
