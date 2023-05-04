@@ -1,7 +1,7 @@
 import { logger } from "../log/winston.js"
 import randomBytes from "randombytes"
 
-export let users = [
+export let users = [/* 
     {
         _id: "64346cf8cea734457210afa8",
         email: 'salinasflorencia11@gmail.com',
@@ -38,9 +38,9 @@ export let users = [
         admin: true,
         __v: 0
     },
-] 
+ */] 
 export let carts = []
-export let products = [
+export let products = [/* 
     {
         _id: "642b144320bbed9474103ca1",
         timeStamp: '3/4/2023, 15:00:35',
@@ -85,7 +85,7 @@ export let products = [
         stock: 2,
         __v: 0
     }
-]
+ */]
 
 
 class ContainerMemory {
@@ -95,8 +95,9 @@ class ContainerMemory {
 
     createData (data){
         try{
-            const req = this.model.push({...data, _id: randomBytes(16)})
-            return req
+            const newData = {...data, _id: randomBytes(16)}
+            this.model.push(newData)
+            return newData
         }
         catch(error){
             logger.error(`error: ${error.message}`)
@@ -126,8 +127,8 @@ class ContainerMemory {
     updateData(key, value, data) {
         try{
             const index = this.model.findIndex(x => x[key] === value)
-            const req = this.model[index] = data
-            return req
+            this.model[index] = data
+            return this.model[index]
         }
         catch(error){
             logger.error(`error: ${error.message}`)
@@ -137,11 +138,16 @@ class ContainerMemory {
     deleteData (key, value) {
         try{
             const req = this.model.filter(x => x[key] != value)
-            return req
+            this.model = req
+            return this.model
         }
         catch(error){
             logger.error(`error: ${error.message}`)
         }
+    }
+
+    clearData() {
+        this.model = []
     }
 }
 

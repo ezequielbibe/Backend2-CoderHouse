@@ -3,7 +3,7 @@ import { logger } from "../log/winston.js"
 
 export const createProduct = async (data) => {
     try{
-        const req = await daoProducts.createCart(data)
+        const req = await daoProducts.createData(data)
         return req
     }catch(error){
         logger.error(`error: ${error.message}`)
@@ -44,4 +44,8 @@ export const deleteProductById = async (_id) => {
     }catch(error){
         logger.error(`error: ${error.message}`)
     }
+}
+
+export const clearProducts = () => {
+    daoProducts.clearData()
 }
