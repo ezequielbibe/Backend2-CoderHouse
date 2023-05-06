@@ -24,7 +24,8 @@ export const productControllerGetAdmin = async (req, res) => {
 
 export const productControllerGet = async (req, res) => {
     const { id } = req.params
-    await getProducts(req, res, 'products', id)
+    /* await getProducts(req, res, 'products', id) */
+    res.status(200)
 }
 
 export const productControllerPost = async (req, res) => {

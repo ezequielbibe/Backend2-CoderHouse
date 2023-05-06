@@ -22,11 +22,14 @@ export const getCartById = async (id) => {
 
 export const getProductsCartById = async (id) => {
     try{
+        if(id === undefined) {
+            return undefined
+        }
         const req = await daoCart.readOneData('id', id)
-        return req.products
+        return req === undefined ? undefined : req.products
     }
     catch(error){
-        logger.error(`error: ${error.message}`)
+        logger.error(`errooooor: ${error.message}`)
     }
 }
 
@@ -54,8 +57,8 @@ export const clearCart = async (id) => {
 
 export const removeProductCart = async (id, _id) => {
     const cart = await daoCart.readOneData('id', id)
-    cart['products'].filter(prod => prod._id != _id)
-    const req = await daoCart.updateData('id', id, cart)
+    const newProducts = cart['products'].filter(prod => prod._id !== _id)
+    const req = await daoCart.updateData('id', id, {...cart, products: newProducts})
     return req
 }
 

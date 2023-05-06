@@ -10,6 +10,7 @@ import mongoStore from 'connect-mongo'
 import { productsRouter, cartRouter, authRouter } from './router/index.js'
 import { logger } from './log/winston.js'
 
+export let app
 
 if(MODE === 'cluster' && cluster.isPrimary){
     logger.info(`Process ${process.pid} is running`)
@@ -24,7 +25,7 @@ if(MODE === 'cluster' && cluster.isPrimary){
     })
 
 } else {
-    const app = express()
+    app = express()
     app.use(express.static('public'))
     app.use(express.json())
     app.use(express.urlencoded({extended:true}))
@@ -39,7 +40,6 @@ if(MODE === 'cluster' && cluster.isPrimary){
         saveUninitialized: false,
         secret: PRIVATE_KEY,
     }))
-
     app.use(passport.initialize())
     app.use(passport.session())
 

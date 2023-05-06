@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { addProductCartById, clearAllCarts, clearCart, createCart, getCartById, getProductsCartById } from '../dto/cartControllers.js'
+import { addProductCartById, clearAllCarts, clearCart, createCart, getCartById, getProductsCartById, removeProductCart } from '../dto/cartControllers.js'
 
 const prod = {
     _id: '2',
@@ -28,7 +28,7 @@ describe('DTO carts controller', () => {
             const request = await createCart(newCart)
 
             expect(request).to.be.an('object')
-            expect(request).to.have.any.keys('_id', 'timeStamp','products')
+            expect(request).to.have.an.keys('_id', 'id', 'timeStamp','products')
         })
     })
 
@@ -65,7 +65,7 @@ describe('DTO carts controller', () => {
             
             expect(request).to.be.an('array')
             expect(request.length).to.be.eq(1)
-            expect(request[0]).to.have.any.keys('_id', 'timeStamp', 'prodName', 'description', 'code', 'price', 'photo', 'stock')
+            expect(request[0]).to.have.an.keys('_id', 'timeStamp', 'prodName', 'description', 'code', 'price', 'photo', 'stock')
         })
 
         it('Should return undefined if not have id or id is not correct', async () => {
@@ -97,12 +97,33 @@ describe('DTO carts controller', () => {
     })
 
     describe('clearCart', () => {
+
         beforeEach(()=>{
             clearAllCarts()
         })
 
-        it('Should empty cart by id', () => {
-            
+        it('Should empty products in cart by id', async () => {
+            await createCart(newCart)
+            await clearCart(newCart.id)
+            const request = await getProductsCartById(newCart.id)
+
+            expect(request).to.be.an('array')
+            expect(request.length).to.be.eq(0)
+        })
+    })
+
+    describe('removeProductCart', () => {
+
+        beforeEach(() => {
+            clearAllCarts()
+        })
+
+        it('Should remove product of cart by cart id and product id', async () => {
+            await createCart(newCart)
+            const request = await removeProductCart(newCart.id, prod._id)
+
+            expect(request.products).to.be.an('array')
+            expect(request.products.length).to.be.eq(0)
         })
     })
 })

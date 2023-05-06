@@ -26,3 +26,7 @@ export const getUserByEmail = async (email) => {
         logger.error(`error: ${error.message}`)
     }
 }
+
+export const clearUsers = async () => {
+    await daoUsers.clearData()
+}
