@@ -1,0 +1,197 @@
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: Cannot access 'req' before initialization"}
+{"level":"error","message":"error: daoCart.clearCart is not a function"}
+{"level":"error","message":"error: daoCart.clearCart is not a function"}
+{"level":"error","message":"error: clearCart is not defined"}
+{"level":"error","message":"error: clearCart is not defined"}
+{"level":"error","message":"error: removeProductCart is not defined"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: daoCart.createCart is not a function"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot set properties of undefined (setting 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot set properties of undefined (setting 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot set properties of undefined (setting 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot set properties of undefined (setting 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot set properties of undefined (setting 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"ereeeror: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"ereeeror: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of undefined (reading 'products')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}

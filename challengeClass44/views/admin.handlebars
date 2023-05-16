@@ -1,0 +1,36 @@
+{{>welcome}}
+<div class="container col-3">
+    <h3>Add product</h3>
+    <form action="/api/products" method="POST" class="col-12">
+    <div class="mb-3">
+        <p class="fw-bold fst-italic">name</p>
+        <input type="text" class="form-control" name="prodName" id="prodName" aria-describedby="prodName">
+    </div>
+    <div class="mb-3">
+        <p class="fw-bold fst-italic">description</p>
+        <input type="text" class="form-control" name="description" id="description" aria-describedby="description">
+    </div>
+    <div class="mb-3">
+        <p class="fw-bold fst-italic">code</p>
+        <input type="number" class="form-control" name="code" id="code" aria-describedby="code">
+    </div>
+    <div class="mb-3">
+        <p class="fw-bold fst-italic">price</p>
+        <input type="number" class="form-control" name="price" id="price" aria-describedby="price">
+    </div>
+        <div class="mb-3">
+        <p class="fw-bold fst-italic">stock</p>
+        <input type="number" class="form-control" name="stock" id="stock" aria-describedby="stock">
+    </div>
+    <div class="mb-3">
+        <p class="fw-bold fst-italic">photo</p>
+        <input type="text" class="form-control" name="photo" id="photo" aria-describedby="photo">
+    </div>
+    <button class="btn btn-success">Add</button>
+
+</form>
+</div>
+
+{{>table}}
+
+<script src="../../../main.js"></script>
