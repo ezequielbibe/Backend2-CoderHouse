@@ -1,11 +1,9 @@
 import { createUser } from '../../dto/authController.js'
 import { phoneValidate, handleSendMail } from '../../helpers/index.js'
+import { generateToken } from '../../middleware/jwt/handleToken.js'
 import { logger } from '../../log/winston.js'
 
 export const loginControllerGet = (req, res) => {
-    const  { originalUrl, method } = req
-
-    logger.info(`Route: ${originalUrl}, Method: ${method}`)
     if(req.session.passport) {
         res.redirect('/api/products')
         return
@@ -15,10 +13,9 @@ export const loginControllerGet = (req, res) => {
 }
 
 export const loginControllerPost = async (req, res)=> {
-    const  { originalUrl, method } = req
-
-    logger.info(`Route: ${originalUrl}, Method: ${method}`)
-    res.redirect('/api/products')
+    const { name, email, admin } = req.user
+    const token = generateToken({ name, email, admin })
+    res.json({ token })
 }
 
 export const registerControllerGet = (req, res) => {
@@ -36,7 +33,7 @@ export const registerControllerPost = async (req, res) => {
     try{
         const  { originalUrl, method } = req
         const { name, age, address, phone, avatar } = req.body
-        const { email, password, admin} = req.session.passport.user    
+        const { email, password } = req.session.passport.user    
 
         if(!phoneValidate(phone)) {
             res.status(500).send('Error!.. Phone number is invalid.')

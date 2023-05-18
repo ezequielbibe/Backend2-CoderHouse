@@ -1,17 +1,15 @@
-import { createProduct, getAllProducts, getProductById, deleteProductById} from '../../dto/productsControllers.js'
+import { createProduct, getAllProducts, getProductById, deleteProductById, updateProduct} from '../../dto/productsControllers.js'
 import { logger } from '../../log/winston.js'
 
-const getProducts = async (req, res, route, id) => {
+const getProducts = async (req, res, id) => {
     try{
-        const user = req.session.passport.user
-        const list = route === 'products' ? true : false
         if(id) {
             const product = await getProductById(id)
-            res.render(route, { product })
+            res.json(product )
             return
         }
         const products = await getAllProducts()
-        res.render(route, { products, user, list })
+        res.json(products)
     }catch(error){
         logger.error(`error: ${error.message}`)
     }
@@ -19,29 +17,29 @@ const getProducts = async (req, res, route, id) => {
 
 export const productControllerGetAdmin = async (req, res) => {
     const { id } = req.params
-    await getProducts(req, res, 'admin', id)
+    await getProducts(req, res, id)
 }
 
 export const productControllerGet = async (req, res) => {
     const { id } = req.params
-    /* await getProducts(req, res, 'products', id) */
-    res.status(200)
+    await getProducts(req, res, id)
+
 }
 
 export const productControllerPost = async (req, res) => {
     try{
-        const { admin } = req.session.passport.user
+        const { admin } = req.user
         const product = req.body
 
         if(!admin) {
-            res.status(403).json({ "error": `route invalid. This route is for only admin`})
+            res.status(403).json({'message': `route invalid. This route is for only admin`})
             return
         }
 
         const timeStamp = new Date().toLocaleString()
         const data = { timeStamp, ...product }
         const request = await createProduct(data)
-        res.redirect('/api/products/admin')
+        res.json({'data': request, 'message': 'It product is added in list'})
     }catch(error) {
         logger.error(`error: ${error.message}`)
     }
@@ -50,7 +48,7 @@ export const productControllerPost = async (req, res) => {
 export const productControllerPut = async (req, res) => {
     try{
         const { id } = req.params
-        const { admin } = req.session.passport.user
+        const { admin } = req.user
 
         if(!admin) {
             res.status(403).json({ "error": `route invalid. This route is for only admin`})
@@ -58,24 +56,25 @@ export const productControllerPut = async (req, res) => {
 
         const timeStamp = new Date().toLocaleString()
         const product = {...req.body, timeStamp }
-        const request = await updateProduct(id, id, product)
-        res.json({"status": 200})
+        await updateProduct(id, product)
+        res.json({'data': product, "message": 'The product was modified'})
     } catch(error) {
+        res.status(400)
         logger.error(`error: ${error.message}`)
     }
 }
 
 export const productControllerDelete = async (req, res) => {    
     try{ 
-        const { admin } = req.session.passport.user
         const { id } = req.params
+        const { admin } = req.user
 
         if(!admin) {
             res.status(403).json({ "error": `route invalid. This route is for only admin`})
         }
 
         const request = await deleteProductById(id)
-        res.json({"status": 200})
+        res.json({'message':`It product with id: ${id}, is deleted`})
 
     }catch(error){
         logger.error(`error: ${error.message}`)

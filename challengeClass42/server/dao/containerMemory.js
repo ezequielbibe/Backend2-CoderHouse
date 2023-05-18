@@ -1,7 +1,7 @@
 import { logger } from "../log/winston.js"
 import randomBytes from "randombytes"
 
-export let users = [/* 
+export let users = [ 
     {
         _id: "64346cf8cea734457210afa8",
         email: 'salinasflorencia11@gmail.com',
@@ -17,7 +17,7 @@ export let users = [/*
     {
         _id: "642b01c1827448a50251772a",
         email: 'ezequielbibee.dev@gmail.com',
-        password: '$2b$10$W5cEYkyzUvH5IpAdvmsMO.grhZnoyZs3vTa8nptgd4MpR22ORnzH2',
+        password: '$2b$10$nG3PewBYMlHtRmoqhGmo4O5Q74HrqinhIkYcLOJmO7TRwsu1ZSik.',
         name: 'Ezequiel Bibé',
         age: 24,
         address: 'asdasdsad',
@@ -38,9 +38,9 @@ export let users = [/*
         admin: true,
         __v: 0
     },
- */] 
+] 
 export let carts = []
-export let products = [/* 
+export let products = [
     {
         _id: "642b144320bbed9474103ca1",
         timeStamp: '3/4/2023, 15:00:35',
@@ -85,7 +85,7 @@ export let products = [/*
         stock: 2,
         __v: 0
     }
- */]
+]
 
 
 class ContainerMemory {

@@ -7,9 +7,8 @@ class ContainerMongoDB {
 
     async createData (data) {
         try{
-            const req = new this.model(data)
-            logger.info(`Data created`)
-            return await req.save()
+            const req = new this.model(data).save()
+            return req
         }
         catch(error){
             logger.error(`error: ${error.message}`)

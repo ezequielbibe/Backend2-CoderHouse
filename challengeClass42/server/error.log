@@ -1,101 +1,26 @@
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /account, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot access 'req' before initialization"}
 {"level":"error","message":"error: daoCart.clearCart is not a function"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: daoCart.clearCart is not a function"}
 {"level":"error","message":"error: clearCart is not defined"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: clearCart is not defined"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: removeProductCart is not defined"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
 {"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
 {"level":"error","message":"error: Cast to ObjectId failed for value \"123123\" (type string) at path \"_id\" for model \"Product\""}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/sdsadasd, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/64335615e5f7df036b5928d3/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /, Method: GET"}
-{"level":"warn","message":"Invalid route: /favicon.ico, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
 {"level":"error","message":"error: daoCart.createCart is not a function"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
 {"level":"error","message":"error: daoCart.createCart is not a function"}
@@ -106,7 +31,6 @@
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
 {"level":"error","message":"error: daoCart.createCart is not a function"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
 {"level":"error","message":"error: daoCart.createCart is not a function"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
 {"level":"error","message":"error: daoCart.createCart is not a function"}
@@ -121,14 +45,6 @@
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'id')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/cart/642b01c1827448a50251772a/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
-{"level":"warn","message":"Invalid route: /api/123123213, Method: GET"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'products')"}
@@ -272,3 +188,46 @@
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
 {"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"errooooor: Cannot read properties of null (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of null (reading 'products')"}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required."}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: Cannot read properties of undefined (reading 'user')"}
+{"level":"error","message":"error: admin is not defined"}
+{"level":"error","message":"error: admin is not defined"}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Product\""}
+{"level":"error","message":"error: Cast to ObjectId failed for value \"_id}\" (type string) at path \"_id\" for model \"Product\""}

@@ -2,7 +2,8 @@ import { daoUsers } from "../dao/index.js"
 
 export const createUser = async (data) => {
     try{
-        const req = daoUsers.createData(data)
+        const newData = {...data, admin: false}
+        const req = daoUsers.createData(newData)
         return req
     }catch(error){
         logger.error(`error: ${error.message}`)

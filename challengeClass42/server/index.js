@@ -9,8 +9,8 @@ import './router/auth/index.js'
 import mongoStore from 'connect-mongo'
 import { productsRouter, cartRouter, authRouter } from './router/index.js'
 import { logger } from './log/winston.js'
-
-export let app
+import { expressMiddleware } from '@apollo/server/express4'
+import { server } from './graphql/server.js'
 
 if(MODE === 'cluster' && cluster.isPrimary){
     logger.info(`Process ${process.pid} is running`)
@@ -25,7 +25,7 @@ if(MODE === 'cluster' && cluster.isPrimary){
     })
 
 } else {
-    app = express()
+    const app = express()
     app.use(express.static('public'))
     app.use(express.json())
     app.use(express.urlencoded({extended:true}))
@@ -51,15 +51,16 @@ if(MODE === 'cluster' && cluster.isPrimary){
     app.use('/api/products', productsRouter)
     app.use('/api/cart', cartRouter)
 
-    app.all("*",(req, res) => {
+/*     app.all("*",(req, res) => {
         logger.warn(`Invalid route: ${req.originalUrl}, Method: ${req.method}`)
         res.status(404).json({"error": -2, "description": `route ${req.originalUrl} is invalid`})
-    })
+    }) */
 
-    app.listen(PORT, async () => {
+    server.start().then(async ()=> {
         try{
             PERSISTENCE === 'MONGO' ? await connectToMongoDB() : logger.info("Connect to the MemoryDB")
-            logger.info(`Listening on port ${PORT}, process ${process.pid}`)
+            app.use('/graphql', expressMiddleware(server))
+            app.listen(PORT, async () => logger.info(`Listening on port ${PORT}, process ${process.pid}`))
         }catch(error){
             logger.error(error)
         }
