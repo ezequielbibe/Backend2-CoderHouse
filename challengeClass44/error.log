@@ -195,3 +195,17 @@
 {"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
 {"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
 {"level":"error","message":"error: Product validation failed: stock: Path `stock` is required., photo: Path `photo` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., prodName: Path `prodName` is required., timeStamp: Path `timeStamp` is required."}
+{"level":"error","message":"errooooor: Cannot read properties of null (reading 'products')"}
+{"level":"error","message":"errooooor: Cannot read properties of null (reading 'products')"}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
+{"level":"error","message":"error: Cart validation failed: timeStamp: Path `timeStamp` is required., id: Path `id` is required."}
