@@ -1,16 +1,25 @@
-Consigna 1: 
+**  Agregar en la vista info, el número de procesadores presentes en el servidor. 
+    + http://localhost/info
 
-*   nodemon server -p 3000 -m cluster
-    nodemon server -p 3000 -m fork 
-    nodemon server -p 3000
+**  Ejecutar el servidor (modos FORK y CLUSTER) con nodemon verificando el número de procesos tomados por node.
+    + nodemon index.js -m fork -p 8080
+    + nodemon index.js -m cluster -p 8081
 
-*   forever start -w server.js -p 3000 -m cluster
-    forever list
-    ps | grep node
+**  Ejecutar el servidor (con los parámetros adecuados) utilizando Forever, verificando su correcta operación. Listar los procesos por Forever y por sistema operativo.
+    + forever start index.js
+    + forever list
+    * tastklist /v
 
-*   pm2 start server.js --name="serverFork" --watch -- 8080
-    pm2 start server.js --name="server-cluster" --watch -i max -- 8081
-    pm2 list
-    ps | grep node
+**  Ejecutar el servidor (con los parámetros adecuados: modo FORK) utilizando PM2 en sus modos modo fork y cluster. Listar los procesos por PM2 y por sistema operativo.
+    + pm2 start index.js --name="server" -- 8080
+    + pm2 start index.js --name="server2" -i max -- 8081
 
-*
+** Tanto en Forever como en PM2 permitir el modo escucha, para que la actualización del código del servidor se vea reflejado inmediatamente en todos los procesos.
+    + forever start -w index.js -p 8080
+    + pm2 start index.js --name="server" --watch -- 8080
+
+** Hacer pruebas de finalización de procesos fork y cluster en los casos que corresponda.
+    + Dada la logica implementa en index.js cada vez que matemos intencionalmente un proceso o se caiga por algun motivo, automaticamente el servidor iniciara con nuevos procesos.
+
+** Consiga de configuracion de nginx.
+    + En la carpeta de este projecto esta tambien el archivo de configuracion de nginx (nginx.conf) con la configuracion necesaria para poder balancear las cargas del servidor.
